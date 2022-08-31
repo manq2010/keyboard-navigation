@@ -72,3 +72,17 @@ A better solution is giving the container for the hidden content itself either t
 [link]
 
 [link]:https://webaim.org/techniques/skipnav/
+
+## Links
+
+1. Make sure that the text content of the `<a>` element somehow indicates where the link redirects to and that it’s brief (around 100 characters). So avoid using phrases like “click here” or “this page”.
+
+2. If a link would open or download a file, include text that tells the user what kind of file it is as well as the file size.
+
+3. If a link would automatically open in a new tab or window with the `target="_blank"` attribute, you should indicate this to the user in some way.
+
+## Alternative Text & Usable and Accessible Form Validation and Error Recovery
+
+[alt] and [FormValidationAndErrorRecovery]
+[alt]:<https://webaim.org/techniques/alttext/>
+[FormValidationAndErrorRecovery]:<https://webaim.org/techniques/formvalidation/>
