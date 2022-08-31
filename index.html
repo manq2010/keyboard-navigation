@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js"></script>
+    <title>Keyboard Navigation</title>
+</head>
+
+<body>
+
+    <!-- The `tabindex` attribute makes the `<div>` elements focusable. -->
+    <div class='button-container'>
+        <div class='rock button' tabindex='0'>Rock</div>
+        <div class='paper button' tabindex='0'>Paper</div>
+        <div class='scissors button' tabindex='0'>Scissors</div>
+    </div>
+
+    <!-- This element is first in the tab order. -->
+    <div tabindex='0'>This is the first element listed in the HTML.</div>
+
+    <!-- This element is second in the tab order. -->
+    <div tabindex='0'>This is the second element listed in the HTML.</div>
+
+    <br><br>
+
+    <label>
+        <input type="text">
+        Address
+    </label>
+
+    <label for="">
+        <input type="tel">
+        Phone
+    </label>
+
+    <select>
+        <option value="work">Work</option>
+        <option value="cell">Cell</option>
+        <option value="home">Home</option>
+    </select>
+
+</body>
+
+</html>

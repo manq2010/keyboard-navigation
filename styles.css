@@ -1,0 +1,5 @@
+/* These are so ugh-ly! Let's get rid of them. */
+*:focus {
+    outline: none;
+    border: none;
+}
